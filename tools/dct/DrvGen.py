@@ -74,13 +74,9 @@ from utility.util import log
 def usage():
     print '''
 usage: DrvGen [dws_path] [file_path] [log_path] [paras]...
-<<<<<<< HEAD
-options and arguments:
-=======
 
 options and arguments:
 
->>>>>>> fde9f705cd86... treewide: Import drvgen and dct
 dws_path    :    dws file path
 file_path   :    where you want to put generated files
 log_path    :    where to store the log files
@@ -235,7 +231,4 @@ if __name__ == '__main__':
         sys.exit(-1)
 
     sys.exit(0)
-<<<<<<< HEAD
-=======
 
->>>>>>> fde9f705cd86... treewide: Import drvgen and dct
